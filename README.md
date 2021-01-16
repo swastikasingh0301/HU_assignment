@@ -1,1 +1,1 @@
-# HU_assignment
+# HUEx HTML/CSS/JS/TS Hands on Assignment
