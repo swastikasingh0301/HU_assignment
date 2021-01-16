@@ -13,25 +13,40 @@ html {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-    background-color: rgba(255, 121, 20, 0.3);
+  background-color: rgba(255, 121, 20, 0.3);
 }
 
 header {
   padding: 1rem;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
-.logo-header {
+.logo-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: auto;
+}
+
+.avatar-container {
+  margin-right: 1rem;
+}
+
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
+  border: 1px solid #1f2c39;
 }
 
 header img {
@@ -47,10 +62,10 @@ header h1 {
 header p {
   font-size: 2rem;
   text-align: center;
-  color: #1F2C39;
+  color: #1f2c39;
 }
 
-nav { 
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
