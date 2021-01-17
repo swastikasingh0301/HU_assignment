@@ -1,76 +1,78 @@
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <link rel="stylesheet" href="style.css" />
 
     <link rel="icon" href="HexFavicon.svg" />
     <title>HUEx To do List HTML/CSS</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="header">
-      <header>
-        <div class="logo-container">
-          <img src="Hextreme.png" alt="Todo App logo" />
-          <p>The extreme HashedIn by Deloitte To Do app</p>
-        </div>
-        <div class="avatar-container">
-          <img src="avatar.svg" class="avatar" />
-        </div>
-      </header>
+        <header>
+            <div class="logo-container">
+                <img src="Hextreme.png" alt="Todo App logo" />
+                <p>The extreme HashedIn by Deloitte To Do app</p>
+            </div>
+            <div class="avatar-container">
+                <img src="avatar.svg" class="avatar" />
+            </div>
+        </header>
 
-      <nav>
-        <div class="nav-item">
-          <p>Lorem</p>
-        </div>
-        <div class="nav-item">
-          <p>ipsum</p>
-        </div>
-        <div class="nav-item">
-          <p>dolor</p>
-        </div>
-        <div class="nav-item">
-          <p>sit</p>
-        </div>
-        <div class="nav-item">
-          <p>amet</p>
-        </div>
-      </nav>
+        <nav>
+            <div class="nav-item">
+                <p>Lorem</p>
+            </div>
+            <div class="nav-item">
+                <p>ipsum</p>
+            </div>
+            <div class="nav-item">
+                <p>dolor</p>
+            </div>
+            <div class="nav-item">
+                <p>sit</p>
+            </div>
+            <div class="nav-item">
+                <p>amet</p>
+            </div>
+        </nav>
     </div>
 
     <main class="todo-wrapper">
-      <h2>My to-do list</h2>
-      <p>Double-click an item to mark it complete.</p>
-      <form name="todo-adder">
-        <input type="text" id="todo-entry-box" />
-      </form>
-      <div class="buttons">
-        <div class="button">
-          <button id="add-button" class="pretty-button">Add</button>
+        <h2>My to-do list</h2>
+        <p>Double-click an item to mark it complete.</p>
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <div class="buttons">
+            <div class="button">
+                <button id="add-button" class="pretty-button">Add</button>
+            </div>
+            <div class="button">
+                <button id="clear-completed-button" class="pretty-button">
+                    Clear Completed
+                </button>
+            </div>
+            <div class="button">
+                <button id="empty-button" class="pretty-button">Empty List</button>
+            </div>
+            <div class="button">
+                <button id="save-button" class="pretty-button">Save List</button>
+            </div>
         </div>
-        <div class="button">
-          <button id="clear-completed-button" class="pretty-button">
-            Clear Completed
-          </button>
-        </div>
-        <div class="button">
-          <button id="empty-button" class="pretty-button">Empty List</button>
-        </div>
-        <div class="button">
-          <button id="save-button" class="pretty-button">Save List</button>
-        </div>
-      </div>
 
-      <br />
-      <ol id="todo-list"></ol>
+        <br />
+        <ol id="todo-list"></ol>
     </main>
+    <footer class="todo-wrapper">
+        <ol id="saved-list"></ol>
+    </footer>
 
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
